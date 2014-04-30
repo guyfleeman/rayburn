@@ -1,5 +1,7 @@
 package rayburn.engine.dew.bindings;
 
+import java.util.Comparator;
+
 /**
  * @author Will Stuckey
  * @date 2/22/14
@@ -31,7 +33,21 @@ public abstract class AbstractDewPropertyBinding
 	 */
 	public static volatile boolean allowCastObjectToNumericLiteral = false;
 
+	/**
+	 * The comparator for this class.
+	 */
+	public static final Comparator<AbstractDewPropertyBinding> propertyComparator;
+
 	private final String propertyID;
+
+	static
+	{
+		propertyComparator = new Comparator<AbstractDewPropertyBinding>() {
+			public int compare(AbstractDewPropertyBinding property1, AbstractDewPropertyBinding property2) {
+				return property1.getPropertyID().compareTo(property2.getPropertyID());
+			}
+		};
+	}
 
 	/**
 	 * Default constructor for the bound property.

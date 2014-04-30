@@ -25,11 +25,6 @@ public abstract class LocationEntity
 		this.scale = scale;
 	}
 
-	public LocationEntity getLocation()
-	{
-		return this;
-	}
-
 	public void setLocation(Vector3f translation, Vector3f rotation, Vector3f scale)
 	{
 		this.translation = translation;

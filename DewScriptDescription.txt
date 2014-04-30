@@ -1,0 +1,84 @@
+DewScripting Language 
+(<l/p> $) = completed
+(<l/p> !) = broken/immediate attention
+(<l/p> *) = started/in progress
+(<l/p> F <ver>) = future implementation
+
+Targeted Paradigms:
+scripting (interpreted)
+imperative
+non-OOP
+non-abstracted
+core dependent
+io heavy
+(F)procedural/functional
+(F)polymorphic
+
+Typing Paradigms:
+strong
+static typed checked
+
+Primitive Types:
+boolean
+int
+(F)long
+float
+(F)double
+char
+string
+
+Logical Operators
+&
+|
+!
+
+Relational Operators
+==
+>
+<
+>=
+<=
+!=
+
+Structures:
+if
+elseif
+else
+(F)case
+while
+(F)dew-while
+(F)for
+(F)for-ea
+intern
+extern
+
+Operators
++
+-
+*
+/
+%
+^
+
+Pre-Post Incrementors:
+++
+--
+
+Variable Operators:
++=
+-=
+*=
+/=
+%=
+^=
+
+Keywords and Respective Operations:
+extern-defines an operation that is linked to an external resource
+load-load a resource
+get=get a resoruce
+set-set a resource
+bind-bind a resource to another resource
+if
+elif
+el
+

@@ -47,6 +47,8 @@ public class ReferenceTimer
 	{
 		long temp = getTime();
 		interval = temp - lastTime;
+		if (interval == 0)
+			interval = 1;
 		lastTime = temp;
 	}
 

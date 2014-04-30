@@ -4,9 +4,8 @@ import java.io.File;
 
 /**
  * @author Will Stuckey
- *         9/8/13
- *         <p/>
- *         <b></b>
+ * 9/8/13
+ * <b>This command lists the drives avaliable on the system</b>
  */
 public class Drives extends Command
 {

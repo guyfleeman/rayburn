@@ -1,22 +1,10 @@
-import org.apache.commons.lang3.mutable.MutableInt;
 import rayburn.engine.dew.lang.DewInterpreter.*;
-import rayburn.engine.dew.lang.DewInterpreter.DewLexer.*;
-import rayburn.engine.dew.lang.DewInterpreter.DewLexer.LexicalTokens.*;
-import rayburn.engine.dew.lang.DewInterpreter.DewParser.*;
-import rayburn.engine.dew.lang.DewInterpreter.DewParser.ParseTokens.*;
-import test.gimballock.PolyEngine;
+import rayburn.engine.Engine;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.Stack;
-import java.util.Queue;
-import java.util.regex.Pattern;
-
-import static rayburn.engine.dew.lang.DewInterpreter.DewParser.AlgebraicExpressionBranch.*;
 
 /**
  * @author Will Stuckey
@@ -29,7 +17,8 @@ public class Rayburn
 	{
 		//System.out.println(Integer.class);
 
-		new PolyEngine(true, false);
+		new Engine(true, true);
+		//new VertexBufferEngine(false, false, 1000);
 
 		/*
 		String myString = "1+2-4";

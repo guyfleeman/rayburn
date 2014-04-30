@@ -45,18 +45,15 @@ public final class ShaderUtil
 	 */
 	public static int getShaderId(shaderType type)
 	{
-		int id = GL_VERTEX_SHADER;
-
 		switch (type)
 		{
-			case SHADER_VERTEX: id = GL_VERTEX_SHADER; break;
-			case SHADER_FRAGMENT: id = GL_FRAGMENT_SHADER; break;
-			case SHADER_GEOMETRY: id = GL_GEOMETRY_SHADER; break;
-			case SHADER_TESSELLATION_CONTROL: id = GL_TESS_CONTROL_SHADER; break;
-			case SHADER_TESSELLATION_EVALUATION: id = GL_TESS_EVALUATION_SHADER; break;
+			case SHADER_VERTEX: return GL_VERTEX_SHADER;
+			case SHADER_FRAGMENT: return GL_FRAGMENT_SHADER;
+			case SHADER_GEOMETRY: return GL_GEOMETRY_SHADER;
+			case SHADER_TESSELLATION_CONTROL: return GL_TESS_CONTROL_SHADER;
+			case SHADER_TESSELLATION_EVALUATION: return GL_TESS_EVALUATION_SHADER;
+			default: return Integer.MIN_VALUE;
 		}
-
-		return id;
 	}
 
 	/**

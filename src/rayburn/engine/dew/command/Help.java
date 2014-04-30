@@ -4,7 +4,11 @@ package rayburn.engine.dew.command;
 //import com.google.common.collect.Ordering;
 
 
+import com.google.common.base.Function;
+import com.google.common.collect.Ordering;
+
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * @author guyfleeman
@@ -31,20 +35,22 @@ public class Help extends Command
 	 */
 	public void execute()
 	{
-		commands = getParentConsole().getCommandlist();
+		commands = (ArrayList<Command>) getParentConsole().getCommandlist().clone();
 
-        /*
-		Collections.sort(command, Ordering.natural().onResultOf(
-			new Function<Command, String>()
-			{
-				public String apply(Command c)
-				{
-					return c.getName();
+		/*
+		 * Sort commands alphabetically
+		 */
+		Collections.sort(commands, Ordering.natural().onResultOf(
+				new Function<Command, String>() {
+					public String apply(Command c) {
+						return c.getName();
+					}
 				}
-			}
 		));
-		*/
 
+		/*
+		 * Print the commands
+		 */
 		for (Command c : commands)
 		{
 			System.out.println(c.getName() + ":");
