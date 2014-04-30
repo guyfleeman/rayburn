@@ -62,7 +62,8 @@ import static org.lwjgl.opengl.GL15.glDeleteBuffers;
 import static org.lwjgl.util.glu.GLU.gluPerspective;
 
 /**
- * @author StuckeyWilliamM
+ * @author Kurt Shaffer
+ * @author Will Stuckey
  * @date 12/16/13
  * <b></b>
  */
@@ -190,7 +191,7 @@ public class Engine
 	     * Create quat camera
 	     */
 	    Camera camera = new Camera();
-	    camera.setTranslation(new Vector3f(0f, 0f, 0f));
+	    camera.setTranslation(new Vector3f(0f, -500f, 0f));
 
 	    Cube movingCube = new Cube();
 	    ReferenceTimer rt = new ReferenceTimer();
@@ -272,7 +273,7 @@ public class Engine
 	        {
 		        if (myController.isButtonPressed(8) || myController.isButtonPressed(9))
 		        {
-			        camera.setTranslation(new Vector3f(0f, 0f, -8f));
+			        camera.setTranslation(new Vector3f(0f, -500f, 0f));
 			        camera.setRotation(new Vector3f(0f, 0f, 0f));
 			        camera.setScale(new Vector3f(1f, 1f, 1f));
 		        }
