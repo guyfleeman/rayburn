@@ -21,35 +21,53 @@ import java.io.FileNotFoundException;
 import java.nio.FloatBuffer;
 import java.util.Scanner;
 
+import static org.lwjgl.opengl.GL11.GL_AMBIENT;
 import static org.lwjgl.opengl.GL11.GL_BACK;
 import static org.lwjgl.opengl.GL11.GL_BLEND;
+import static org.lwjgl.opengl.GL11.GL_COLOR;
 import static org.lwjgl.opengl.GL11.GL_COLOR_BUFFER_BIT;
 import static org.lwjgl.opengl.GL11.GL_CULL_FACE;
 import static org.lwjgl.opengl.GL11.GL_DEPTH_BUFFER_BIT;
 import static org.lwjgl.opengl.GL11.GL_DEPTH_TEST;
+import static org.lwjgl.opengl.GL11.GL_DIFFUSE;
 import static org.lwjgl.opengl.GL11.GL_FRONT;
+import static org.lwjgl.opengl.GL11.GL_GEQUAL;
 import static org.lwjgl.opengl.GL11.GL_LIGHT0;
+import static org.lwjgl.opengl.GL11.GL_LIGHT1;
+import static org.lwjgl.opengl.GL11.GL_LIGHT2;
+import static org.lwjgl.opengl.GL11.GL_LIGHT3;
+import static org.lwjgl.opengl.GL11.GL_LIGHT4;
+import static org.lwjgl.opengl.GL11.GL_LIGHT5;
+import static org.lwjgl.opengl.GL11.GL_LIGHT6;
+import static org.lwjgl.opengl.GL11.GL_LIGHT7;
 import static org.lwjgl.opengl.GL11.GL_LIGHTING;
 import static org.lwjgl.opengl.GL11.GL_LIGHT_MODEL_AMBIENT;
+import static org.lwjgl.opengl.GL11.GL_LIGHT_MODEL_TWO_SIDE;
 import static org.lwjgl.opengl.GL11.GL_MODELVIEW;
 import static org.lwjgl.opengl.GL11.GL_NORMAL_ARRAY;
 import static org.lwjgl.opengl.GL11.GL_POSITION;
 import static org.lwjgl.opengl.GL11.GL_PROJECTION;
 import static org.lwjgl.opengl.GL11.GL_SHININESS;
 import static org.lwjgl.opengl.GL11.GL_SMOOTH;
+import static org.lwjgl.opengl.GL11.GL_SPECULAR;
 import static org.lwjgl.opengl.GL11.GL_STENCIL_BUFFER_BIT;
 import static org.lwjgl.opengl.GL11.GL_TRIANGLES;
+import static org.lwjgl.opengl.GL11.GL_TRUE;
 import static org.lwjgl.opengl.GL11.GL_VERTEX_ARRAY;
 import static org.lwjgl.opengl.GL11.glClear;
 import static org.lwjgl.opengl.GL11.glColor3f;
 import static org.lwjgl.opengl.GL11.glCullFace;
+import static org.lwjgl.opengl.GL11.glDepthFunc;
+import static org.lwjgl.opengl.GL11.glDepthMask;
 import static org.lwjgl.opengl.GL11.glDisableClientState;
 import static org.lwjgl.opengl.GL11.glDrawArrays;
 import static org.lwjgl.opengl.GL11.glEnable;
 import static org.lwjgl.opengl.GL11.glEnableClientState;
 import static org.lwjgl.opengl.GL11.glLight;
 import static org.lwjgl.opengl.GL11.glLightModel;
+import static org.lwjgl.opengl.GL11.glLightModeli;
 import static org.lwjgl.opengl.GL11.glLoadIdentity;
+import static org.lwjgl.opengl.GL11.glMaterial;
 import static org.lwjgl.opengl.GL11.glMaterialf;
 import static org.lwjgl.opengl.GL11.glMatrixMode;
 import static org.lwjgl.opengl.GL11.glMultMatrix;
@@ -83,15 +101,6 @@ public class Engine
 
     private void main()
     {
-	    System.out.println("# CONTROLS #");
-	    System.out.println("Move: L-Stick");
-	    System.out.println("Look: R-Stick");
-	    System.out.println("Elevation: L-Trigger AND R-Trigger");
-	    System.out.println("Reset Context: L-Click OR R-Click");
-	    System.out.println("Change Block Color: a OR b OR x OR y");
-	    System.out.println("Reset Block Color: L-Bumper OR R-Bumper");
-	    System.out.println("# END CONTROLS #\n");
-
 	    /*
 	     * Get controllers
 	     */
@@ -158,32 +167,127 @@ public class Engine
 		    System.exit(-1000);
 	    }
 
-	    FloatBuffer lightColor = BufferUtils.createFloatBuffer(4);
-	    lightColor.put(1f);
-	    lightColor.put(1f);
-	    lightColor.put(1f);
-	    lightColor.put(1f);
-	    lightColor.flip();
+	    FloatBuffer lightColorSun = BufferUtils.createFloatBuffer(4);
+	    lightColorSun.put(1f).put(1f).put(0.2f).put(100f).flip();
 
-	    FloatBuffer initLightLoc = BufferUtils.createFloatBuffer(4);
-	    initLightLoc.put(0f);
-	    initLightLoc.put(0f);
-	    initLightLoc.put(0f);
-	    initLightLoc.put(1f);
-	    initLightLoc.flip();
+	    FloatBuffer lightColorTest = BufferUtils.createFloatBuffer(4);
+	    lightColorTest.put(0f).put(1f).put(0f).put(10f).flip();
+
+	    float size = 4f;
+
+	    FloatBuffer lightLocOne = BufferUtils.createFloatBuffer(4);
+	    lightLocOne.put(0f).put(size).put(0f).put(1f).flip();
+
+	    FloatBuffer lightLocTwo = BufferUtils.createFloatBuffer(4);
+	    lightLocTwo.put(0f).put(-size).put(0f).put(1f).flip();
+
+	    FloatBuffer lightLocThree = BufferUtils.createFloatBuffer(4);
+	    lightLocOne.put(size).put(0f).put(0f).put(1f).flip();
+
+	    FloatBuffer lightLocFour = BufferUtils.createFloatBuffer(4);
+	    lightLocTwo.put(-size).put(0f).put(0f).put(1f).flip();
+
+	    FloatBuffer lightLocFive = BufferUtils.createFloatBuffer(4);
+	    lightLocOne.put(0f).put(0f).put(size).put(1f).flip();
+
+	    FloatBuffer lightLocSix = BufferUtils.createFloatBuffer(4);
+	    lightLocTwo.put(0f).put(0f).put(-size).put(1f).flip();
+
+	    /*
+	    FloatBuffer lightLocOne = BufferUtils.createFloatBuffer(4);
+	    lightLocOne.put(size).put(-size).put(-size).put(1f).flip();
+
+	    FloatBuffer lightLocTwo = BufferUtils.createFloatBuffer(4);
+	    lightLocTwo.put(size).put(-size).put(size).put(1f).flip();
+
+	    FloatBuffer lightLocThree = BufferUtils.createFloatBuffer(4);
+	    lightLocOne.put(-size).put(-size).put(size).put(1f).flip();
+
+	    FloatBuffer lightLocFour = BufferUtils.createFloatBuffer(4);
+	    lightLocTwo.put(-size).put(-size).put(-size).put(1f).flip();
+
+	    FloatBuffer lightLocFive = BufferUtils.createFloatBuffer(4);
+	    lightLocOne.put(size).put(size).put(-size).put(1f).flip();
+
+	    FloatBuffer lightLocSix = BufferUtils.createFloatBuffer(4);
+	    lightLocTwo.put(size).put(size).put(size).put(1f).flip();
+
+	    FloatBuffer lightLocSeven = BufferUtils.createFloatBuffer(4);
+	    lightLocOne.put(-size).put(size).put(size).put(1f).flip();
+
+	    FloatBuffer lightLocEight = BufferUtils.createFloatBuffer(4);
+	    lightLocTwo.put(-size).put(size).put(-size).put(1f).flip();
+	    */
+
+	    FloatBuffer ambient = BufferUtils.createFloatBuffer(4);
+	    ambient.put(1f).put(1f).put(1f).put(1f).flip();
+
+	    FloatBuffer diffuse = BufferUtils.createFloatBuffer(4);
+	    diffuse.put(1f).put(1f).put(1f).put(1f).flip();
+
+	    FloatBuffer specular = BufferUtils.createFloatBuffer(4);
+	    specular.put(1f).put(1f).put(1f).put(1f).flip();
 
         glEnable(GL_BLEND);
 	    glEnable(GL_CULL_FACE);
         glEnable(GL_DEPTH_TEST);
 	    glEnable(GL_LIGHTING);
 	    glEnable(GL_LIGHT0);
+	    glEnable(GL_LIGHT1);
+	    glCullFace(GL_BACK);
 
 	    glShadeModel(GL_SMOOTH);
-	    //glLightModel(GL_LIGHT_MODEL_AMBIENT, lightColor);
-	    glLight(GL_LIGHT0, GL_POSITION, initLightLoc);
-	    glCullFace(GL_BACK);
-	    //glMaterialf(GL_FRONT, GL_SHININESS, 110);
-	    //glMaterial(GL_FRONT, GL_DIFFUSE);
+	    glLightModel(GL_LIGHT_MODEL_AMBIENT, lightColorSun);
+	    glLightModeli(GL_LIGHT_MODEL_TWO_SIDE, GL_TRUE);
+	    glLight(GL_LIGHT0, GL_COLOR, lightColorSun);
+	    glLight(GL_LIGHT0, GL_POSITION, lightLocOne);
+
+	    glLight(GL_LIGHT1, GL_COLOR, lightColorSun);
+	    glLight(GL_LIGHT1, GL_AMBIENT, ambient);
+	    glLight(GL_LIGHT1, GL_DIFFUSE, diffuse);
+	    glLight(GL_LIGHT1, GL_SPECULAR, specular);
+	    glLight(GL_LIGHT1, GL_POSITION, lightLocTwo);
+
+	    glLight(GL_LIGHT2, GL_COLOR, lightColorSun);
+	    glLight(GL_LIGHT2, GL_AMBIENT, ambient);
+	    glLight(GL_LIGHT2, GL_DIFFUSE, diffuse);
+	    glLight(GL_LIGHT2, GL_SPECULAR, specular);
+	    glLight(GL_LIGHT2, GL_POSITION, lightLocThree);
+
+	    glLight(GL_LIGHT3, GL_COLOR, lightColorSun);
+	    glLight(GL_LIGHT3, GL_AMBIENT, ambient);
+	    glLight(GL_LIGHT3, GL_DIFFUSE, diffuse);
+	    glLight(GL_LIGHT3, GL_SPECULAR, specular);
+	    glLight(GL_LIGHT3, GL_POSITION, lightLocFour);
+
+	    glLight(GL_LIGHT4, GL_COLOR, lightColorSun);
+	    glLight(GL_LIGHT4, GL_AMBIENT, ambient);
+	    glLight(GL_LIGHT4, GL_DIFFUSE, diffuse);
+	    glLight(GL_LIGHT4, GL_SPECULAR, specular);
+	    glLight(GL_LIGHT4, GL_POSITION, lightLocFive);
+
+	    glLight(GL_LIGHT5, GL_COLOR, lightColorSun);
+	    glLight(GL_LIGHT5, GL_AMBIENT, ambient);
+	    glLight(GL_LIGHT5, GL_DIFFUSE, diffuse);
+	    glLight(GL_LIGHT5, GL_SPECULAR, specular);
+	    glLight(GL_LIGHT5, GL_POSITION, lightLocSix);
+
+	    /*
+	    glLight(GL_LIGHT6, GL_COLOR, lightColorSun);
+	    glLight(GL_LIGHT6, GL_AMBIENT, ambient);
+	    glLight(GL_LIGHT6, GL_DIFFUSE, diffuse);
+	    glLight(GL_LIGHT6, GL_SPECULAR, specular);
+	    glLight(GL_LIGHT6, GL_POSITION, lightLocSeven);
+
+	    glLight(GL_LIGHT7, GL_COLOR, lightColorSun);
+	    glLight(GL_LIGHT7, GL_AMBIENT, ambient);
+	    glLight(GL_LIGHT7, GL_DIFFUSE, diffuse);
+	    glLight(GL_LIGHT7, GL_SPECULAR, specular);
+	    glLight(GL_LIGHT7, GL_POSITION, lightLocEight);
+	    */
+
+		glMaterialf(GL_FRONT, GL_SHININESS, 50f);
+	    glMaterial(GL_FRONT, GL_SPECULAR, specular);
 
 	    float[] color = { 1f, 1f, 1f };
 
@@ -191,29 +295,30 @@ public class Engine
 	     * Create quat camera
 	     */
 	    Camera camera = new Camera();
-	    camera.setTranslation(new Vector3f(0f, -500f, 0f));
+	    camera.setTranslation(new Vector3f(0f, 0f, 0f));
 
-	    Cube movingCube = new Cube();
 	    ReferenceTimer rt = new ReferenceTimer();
 
-	    FloatBuffer camLoc = BufferUtils.createFloatBuffer(4);
-
-	    OBJModel geom = new OBJModel();
-	    OBJModel geomTwo = new OBJModel();
-	    //OBJModel
-	    int[] geomVBOs = {0, 0};
-	    int[] geomTwoVBOs = {0, 0};
+	    OBJModel sun = new OBJModel();
+	    OBJModel exoplanet = new OBJModel();
 	    try
 	    {
-		    geomVBOs = ResourceParser.genWavefrontVBOSet(
-				    new File("C:\\Users\\Will Stuckey\\Desktop\\parisReExp.obj"), geom);
-		    geomTwoVBOs = ResourceParser.genWavefrontVBOSet(
-				    new File("C:\\Users\\Will Stuckey\\Desktop\\some.obj"), geomTwo);
+		    sun = ResourceParser.genModelFromWavefrontOBJ(
+				    new File("C:\\Users\\Will Stuckey\\Desktop\\sun.obj"));
+
+		    exoplanet = ResourceParser.genModelFromWavefrontOBJ(
+				    new File("C:\\Users\\Will Stuckey\\Desktop\\planet.obj"));
 	    }
 	    catch (FileNotFoundException e)
 	    {
 		    System.out.println(e.toString());
 	    }
+
+	    sun.constructBuffers();
+	    exoplanet.constructBuffers();
+
+	    //geom.setScale(new Vector3f(5f, 5f, 5f));
+	    exoplanet.setScale(new Vector3f(0.1f, 0.1f, 0.1f));
 
         while (!Display.isCloseRequested())
         {
@@ -379,35 +484,18 @@ public class Engine
 			        }
 			*/
 
-	        /*
-	         * Do lighting stuff
-	         */
-	        camLoc.put(camera.getTranslation().getX());
-	        camLoc.put(camera.getTranslation().getY());
-	        camLoc.put(camera.getTranslation().getZ());
-	        camLoc.put(1f);
-	        camLoc.flip();
-
-	        //glLight(GL_LIGHT0, GL_POSITION, camLoc);
+	        glLight(GL_LIGHT0, GL_POSITION, lightLocOne);
+	        glLight(GL_LIGHT1, GL_POSITION, lightLocTwo);
 
 	        /*
 	         * Draw loaded obj
 	         */
-	        glColor3f(1f, 1f, 1f);
-	        glEnableClientState(GL_VERTEX_ARRAY);
-	        glEnableClientState(GL_NORMAL_ARRAY);
-	        glDrawArrays(GL_TRIANGLES, 0, geom.faces.size() * 9);
+	        sun.bindBuffers();
+	        sun.drawBuffers();
 
-	        /*
-	         *  Draw animation
-	         */
-	        movingCube.setTranslation(getExoplanetPosition(rt.getIntervalInt(), 0.1f, 500f));
-	        movingCube.setColor(color);
-	        movingCube.setScale(new Vector3f(25f, 25f, 25f));
-	        glColor3f(1f, 0f, 0f);
-	        glPushMatrix();
-	        movingCube.draw();
-	        glPopMatrix();
+	        exoplanet.setTranslation(getExoplanetPosition(rt.getIntervalInt(), 0.04f, 5f));
+	        exoplanet.bindBuffers();
+	        exoplanet.drawBuffers();
 
             Display.update();
             Display.sync(60);
@@ -415,8 +503,6 @@ public class Engine
 
 	    glDisableClientState(GL_NORMAL_ARRAY);
 	    glDisableClientState(GL_VERTEX_ARRAY);
-	    glDeleteBuffers(geomVBOs[0]);
-	    glDeleteBuffers(geomVBOs[1]);
 
         Display.destroy();
 
@@ -429,7 +515,7 @@ public class Engine
 		angle = angle % 360;
 
 		Vector3f position = new Vector3f();
-		position.setY(110f);
+		position.setY(0f);
 		position.setX(radius * (float) Math.cos(Math.toRadians(angle)));
 		position.setZ(radius * (float) Math.sin(Math.toRadians(angle)));
 

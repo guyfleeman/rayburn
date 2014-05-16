@@ -15,7 +15,7 @@ public class Rayburn
 {
 	public static void main(String[] args) throws Exception
 	{
-		new Engine(true, true);
+		new Engine(true, false);
 
 		//System.out.println(Integer.MAX_VALUE);
 
