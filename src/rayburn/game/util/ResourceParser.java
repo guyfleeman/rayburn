@@ -123,6 +123,14 @@ public class ResourceParser
 		return normalData;
 	}
 
+	/**
+	 * @author Lizzy
+	 *
+	 * @param file
+	 * @param geom
+	 * @return
+	 * @throws FileNotFoundException
+	 */
 	public static int[] genWavefrontVBOSet(File file, OBJModel geom) throws FileNotFoundException
 	{
 		//If a file is not given, it is null.
@@ -145,7 +153,7 @@ public class ResourceParser
 			String[] elements = scanner.nextLine().split(" ");
 			if (elements[0].equalsIgnoreCase("v"))
 			{
-				geom.verticies.add(new Vector3f(
+				geom.vertices.add(new Vector3f(
 						Float.parseFloat(elements[1]),
 						Float.parseFloat(elements[2]),
 						Float.parseFloat(elements[3])));
@@ -186,15 +194,15 @@ public class ResourceParser
 
 		for (OBJModel.ModelFace face : geom.faces)
 		{
-			vertices.put(geom.verticies.get(face.vertexIndexArray[0] - 1).getX());
-			vertices.put(geom.verticies.get(face.vertexIndexArray[0] - 1).getY());
-			vertices.put(geom.verticies.get(face.vertexIndexArray[0] - 1).getZ());
-			vertices.put(geom.verticies.get(face.vertexIndexArray[1] - 1).getX());
-			vertices.put(geom.verticies.get(face.vertexIndexArray[1] - 1).getY());
-			vertices.put(geom.verticies.get(face.vertexIndexArray[1] - 1).getZ());
-			vertices.put(geom.verticies.get(face.vertexIndexArray[2] - 1).getX());
-			vertices.put(geom.verticies.get(face.vertexIndexArray[2] - 1).getY());
-			vertices.put(geom.verticies.get(face.vertexIndexArray[2] - 1).getZ());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[0] - 1).getX());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[0] - 1).getY());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[0] - 1).getZ());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[1] - 1).getX());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[1] - 1).getY());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[1] - 1).getZ());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[2] - 1).getX());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[2] - 1).getY());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[2] - 1).getZ());
 
 			normals.put(geom.normals.get(face.normalIndexArray[0] - 1).getX());
 			normals.put(geom.normals.get(face.normalIndexArray[0] - 1).getY());
@@ -221,5 +229,98 @@ public class ResourceParser
 		glBindBuffer(GL_ARRAY_BUFFER, 0);
 
 		return new int[]{vertexHandler, normalHandler};
+	}
+
+	public static OBJModel genModelFromWavefrontOBJ(File file) throws FileNotFoundException
+	{
+		//If a file is not given, it is null.
+		if (file == null)
+		{
+			throw new FileNotFoundException("file not valid");
+		}
+
+		//If it is not a file, it is null.
+		if (!file.isFile())
+		{
+			throw new FileNotFoundException("file not found");
+		}
+
+		OBJModel geom = new OBJModel();
+
+		int lineCt = 0;
+		Scanner scanner = new Scanner(file);
+		while (scanner.hasNextLine())
+		{
+			System.out.println("LINE: " + ++lineCt);
+			String[] elements = scanner.nextLine().split(" ");
+			if (elements[0].equalsIgnoreCase("v"))
+			{
+				geom.vertices.add(new Vector3f(
+						Float.parseFloat(elements[1]),
+						Float.parseFloat(elements[2]),
+						Float.parseFloat(elements[3])));
+			}
+			else if (elements[0].equalsIgnoreCase("vn"))
+			{
+				geom.normals.add(new Vector3f(
+						Float.parseFloat(elements[1]),
+						Float.parseFloat(elements[2]),
+						Float.parseFloat(elements[3])));
+			}
+			else if (elements[0].equalsIgnoreCase("f"))
+			{
+				int[] vertices = {Integer.parseInt(elements[1].split("/")[0]),
+						Integer.parseInt(elements[2].split("/")[0]),
+						Integer.parseInt(elements[3].split("/")[0])
+				};
+
+				if (geom.hasNormals())
+				{
+					int[] normals = {Integer.parseInt(elements[1].split("/")[2]),
+							Integer.parseInt(elements[2].split("/")[2]),
+							Integer.parseInt(elements[3].split("/")[2])};
+					geom.faces.add(new OBJModel.ModelFace(vertices, normals));
+				}
+				else
+				{
+					geom.faces.add(new OBJModel.ModelFace(vertices));
+				}
+			}
+		}
+		scanner.close();
+
+		FloatBuffer vertices = BufferUtils.createFloatBuffer(geom.faces.size() * 9);
+		FloatBuffer normals = BufferUtils.createFloatBuffer(geom.faces.size() * 9);
+
+		for (OBJModel.ModelFace face : geom.faces)
+		{
+			vertices.put(geom.vertices.get(face.vertexIndexArray[0] - 1).getX());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[0] - 1).getY());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[0] - 1).getZ());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[1] - 1).getX());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[1] - 1).getY());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[1] - 1).getZ());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[2] - 1).getX());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[2] - 1).getY());
+			vertices.put(geom.vertices.get(face.vertexIndexArray[2] - 1).getZ());
+
+			normals.put(geom.normals.get(face.normalIndexArray[0] - 1).getX());
+			normals.put(geom.normals.get(face.normalIndexArray[0] - 1).getY());
+			normals.put(geom.normals.get(face.normalIndexArray[0] - 1).getZ());
+			normals.put(geom.normals.get(face.normalIndexArray[1] - 1).getX());
+			normals.put(geom.normals.get(face.normalIndexArray[1] - 1).getY());
+			normals.put(geom.normals.get(face.normalIndexArray[1] - 1).getZ());
+			normals.put(geom.normals.get(face.normalIndexArray[2] - 1).getX());
+			normals.put(geom.normals.get(face.normalIndexArray[2] - 1).getY());
+			normals.put(geom.normals.get(face.normalIndexArray[2] - 1).getZ());
+		}
+
+		vertices.flip();
+		normals.flip();
+
+		geom.setVertexFloatBuffer(vertices);
+		geom.setNormalFloatBuffer(normals);
+
+		return geom;
 	}
 }

@@ -199,11 +199,16 @@ public class Engine
 	    FloatBuffer camLoc = BufferUtils.createFloatBuffer(4);
 
 	    OBJModel geom = new OBJModel();
+	    OBJModel geomTwo = new OBJModel();
+	    //OBJModel
 	    int[] geomVBOs = {0, 0};
+	    int[] geomTwoVBOs = {0, 0};
 	    try
 	    {
 		    geomVBOs = ResourceParser.genWavefrontVBOSet(
 				    new File("C:\\Users\\Will Stuckey\\Desktop\\parisReExp.obj"), geom);
+		    geomTwoVBOs = ResourceParser.genWavefrontVBOSet(
+				    new File("C:\\Users\\Will Stuckey\\Desktop\\some.obj"), geomTwo);
 	    }
 	    catch (FileNotFoundException e)
 	    {

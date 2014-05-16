@@ -1721,7 +1721,7 @@ public class DewInterpreter
 			{
 				if (evalType != Integer.class && evalType != Float.class)
 				{
-					logger.log(Logger.LogLevel.SEVERE, "Algebric RPN cannot eval to given type: " + evalType);
+					logger.log(Logger.LogLevel.SEVERE, "Algebraic RPN cannot eval to given type: " + evalType);
 					return null;
 				}
 

@@ -15,18 +15,9 @@ public class Rayburn
 {
 	public static void main(String[] args) throws Exception
 	{
-		//System.out.println(Integer.class);
-
 		new Engine(true, true);
-		//new VertexBufferEngine(false, false, 1000);
 
-		/*
-		String myString = "1+2-4";
-		List<String> split = Arrays.asList(myString.split("(\\+)|(\\-)"));
-		split.forEach(System.out::println);
-		*/
-
-		//System.out.println(AlgebraicExpressionBranch.isNumber("0.25"));
+		//System.out.println(Integer.MAX_VALUE);
 
         //scriptTest();
 
