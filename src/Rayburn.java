@@ -1,3 +1,4 @@
+import rayburn.engine.ExoplanetEngine;
 import rayburn.engine.dew.lang.DewInterpreter.*;
 import rayburn.engine.Engine;
 
@@ -15,7 +16,11 @@ public class Rayburn
 {
 	public static void main(String[] args) throws Exception
 	{
-		new Engine(true, false);
+		//new Engine(true, false);
+
+		new ExoplanetEngine(true,
+				new File("C:\\Users\\Will Stuckey\\Desktop\\sun.obj"),
+				new File("C:\\Users\\Will Stuckey\\Desktop\\planet.obj"));
 
 		//System.out.println(Integer.MAX_VALUE);
 

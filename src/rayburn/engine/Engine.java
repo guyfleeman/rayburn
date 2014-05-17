@@ -11,7 +11,6 @@ import org.lwjgl.opengl.DisplayMode;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.vector.Vector3f;
 import rayburn.game.util.ResourceParser;
-import rayburn.game.util.geom.Cube;
 import rayburn.game.util.geom.OBJModel;
 import test.projectiontesting.ReferenceTimer;
 
@@ -31,15 +30,12 @@ import static org.lwjgl.opengl.GL11.GL_DEPTH_BUFFER_BIT;
 import static org.lwjgl.opengl.GL11.GL_DEPTH_TEST;
 import static org.lwjgl.opengl.GL11.GL_DIFFUSE;
 import static org.lwjgl.opengl.GL11.GL_FRONT;
-import static org.lwjgl.opengl.GL11.GL_GEQUAL;
 import static org.lwjgl.opengl.GL11.GL_LIGHT0;
 import static org.lwjgl.opengl.GL11.GL_LIGHT1;
 import static org.lwjgl.opengl.GL11.GL_LIGHT2;
 import static org.lwjgl.opengl.GL11.GL_LIGHT3;
 import static org.lwjgl.opengl.GL11.GL_LIGHT4;
 import static org.lwjgl.opengl.GL11.GL_LIGHT5;
-import static org.lwjgl.opengl.GL11.GL_LIGHT6;
-import static org.lwjgl.opengl.GL11.GL_LIGHT7;
 import static org.lwjgl.opengl.GL11.GL_LIGHTING;
 import static org.lwjgl.opengl.GL11.GL_LIGHT_MODEL_AMBIENT;
 import static org.lwjgl.opengl.GL11.GL_LIGHT_MODEL_TWO_SIDE;
@@ -51,18 +47,12 @@ import static org.lwjgl.opengl.GL11.GL_SHININESS;
 import static org.lwjgl.opengl.GL11.GL_SMOOTH;
 import static org.lwjgl.opengl.GL11.GL_SPECULAR;
 import static org.lwjgl.opengl.GL11.GL_STENCIL_BUFFER_BIT;
-import static org.lwjgl.opengl.GL11.GL_TRIANGLES;
 import static org.lwjgl.opengl.GL11.GL_TRUE;
 import static org.lwjgl.opengl.GL11.GL_VERTEX_ARRAY;
 import static org.lwjgl.opengl.GL11.glClear;
-import static org.lwjgl.opengl.GL11.glColor3f;
 import static org.lwjgl.opengl.GL11.glCullFace;
-import static org.lwjgl.opengl.GL11.glDepthFunc;
-import static org.lwjgl.opengl.GL11.glDepthMask;
 import static org.lwjgl.opengl.GL11.glDisableClientState;
-import static org.lwjgl.opengl.GL11.glDrawArrays;
 import static org.lwjgl.opengl.GL11.glEnable;
-import static org.lwjgl.opengl.GL11.glEnableClientState;
 import static org.lwjgl.opengl.GL11.glLight;
 import static org.lwjgl.opengl.GL11.glLightModel;
 import static org.lwjgl.opengl.GL11.glLightModeli;
@@ -71,12 +61,9 @@ import static org.lwjgl.opengl.GL11.glMaterial;
 import static org.lwjgl.opengl.GL11.glMaterialf;
 import static org.lwjgl.opengl.GL11.glMatrixMode;
 import static org.lwjgl.opengl.GL11.glMultMatrix;
-import static org.lwjgl.opengl.GL11.glPopMatrix;
-import static org.lwjgl.opengl.GL11.glPushMatrix;
 import static org.lwjgl.opengl.GL11.glScalef;
 import static org.lwjgl.opengl.GL11.glShadeModel;
 import static org.lwjgl.opengl.GL11.glTranslatef;
-import static org.lwjgl.opengl.GL15.glDeleteBuffers;
 import static org.lwjgl.util.glu.GLU.gluPerspective;
 
 /**
@@ -90,7 +77,7 @@ public class Engine
     private boolean fullscreen = false;
 	private boolean controller = false;
     private int height = 800;
-    private int width = 800;
+	private int width = 800;
 
     public Engine(boolean fullscreen, boolean controller)
     {
@@ -127,6 +114,7 @@ public class Engine
 		    System.out.print("LOCK CONTROLLER ID> ");
 		    myController = Controllers.getController(input.nextInt() - 1);
 	    }
+
 
 	    /*
 	     * Create the display
@@ -312,6 +300,7 @@ public class Engine
 	    catch (FileNotFoundException e)
 	    {
 		    System.out.println(e.toString());
+		    System.exit(-1500);
 	    }
 
 	    sun.constructBuffers();
