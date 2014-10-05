@@ -7,7 +7,7 @@ import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.vector.Matrix4f;
-import rayburn.engine.util.MathUtil;
+import com.normalizedinsanity.rayburn.engine.util.MathUtil;
 
 import java.awt.*;
 import java.nio.FloatBuffer;
@@ -22,7 +22,6 @@ import static org.lwjgl.opengl.GL15.glBufferData;
 import static org.lwjgl.opengl.GL15.glDeleteBuffers;
 import static org.lwjgl.opengl.GL15.glGenBuffers;
 import static org.lwjgl.util.glu.GLU.gluPerspective;
-import static org.lwjgl.util.glu.GLU.gluLookAt;
 
 /**
  * @author Will Stuckey

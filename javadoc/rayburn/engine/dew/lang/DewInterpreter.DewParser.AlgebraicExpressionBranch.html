@@ -35,11 +35,11 @@
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.html" title="class in rayburn.engine.dew.lang"><span class="strong">Prev Class</span></a></li>
-<li><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in rayburn.engine.dew.lang"><span class="strong">Next Class</span></a></li>
+<li><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in com.normalizedinsanity.rayburn.engine.dew.lang"><span class="strong">Next Class</span></a></li>
 </ul>
 <ul class="navList">
-<li><a href="../../../../index.html?rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html" target="_top">Frames</a></li>
+<li><a href="../../../../index.html?com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html" target="_top">Frames</a></li>
 <li><a href="DewInterpreter.DewParser.AlgebraicExpressionBranch.html" target="_top">No Frames</a></li>
 </ul>
 <ul class="navList" id="allclasses_navbar_top">
@@ -78,7 +78,7 @@
 <!-- ========= END OF TOP NAVBAR ========= -->
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="subTitle">rayburn.engine.dew.lang</div>
+<div class="subTitle">com.normalizedinsanity.rayburn.engine.dew.lang</div>
 <h2 title="Class DewInterpreter.DewParser.AlgebraicExpressionBranch" class="title">Class DewInterpreter.DewParser.AlgebraicExpressionBranch</h2>
 </div>
 <div class="contentContainer">
@@ -86,7 +86,7 @@
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>rayburn.engine.dew.lang.DewInterpreter.DewParser.AlgebraicExpressionBranch</li>
+<li>com.normalizedinsanity.rayburn.engine.dew.lang.DewInterpreter.DewParser.AlgebraicExpressionBranch</li>
 </ul>
 </li>
 </ul>
@@ -95,17 +95,17 @@
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in rayburn.engine.dew.lang">DewInterpreter.DewParser.BranchElement</a></dd>
+<dd><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.BranchElement</a></dd>
 </dl>
 <dl>
 <dt>Enclosing class:</dt>
-<dd><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser</a></dd>
+<dd><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser</a></dd>
 </dl>
 <hr>
 <br>
 <pre>public static class <span class="strong">DewInterpreter.DewParser.AlgebraicExpressionBranch</span>
 extends java.lang.Object
-implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in rayburn.engine.dew.lang">DewInterpreter.DewParser.BranchElement</a></pre>
+implements <a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.BranchElement</a></pre>
 <div class="block">This class represents a branch that can be attached to the abstract syntax tree, and be evaluated at runtime.
  This class represents an algebraic expression branch, converted from infix (natural language) to postfix
  (reverse polish notation) queue for computational evaluation at runtime. Computers can't evaluate infix, so
@@ -129,38 +129,38 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 <th class="colLast" scope="col">Field and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>private java.util.LinkedList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#expressionQueue">expressionQueue</a></strong></code>
+<td class="colFirst"><code>private java.util.LinkedList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#expressionQueue">expressionQueue</a></strong></code>
 <div class="block">The expression queue to be evaluated at runtime.</div>
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>private java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#globalVariableList">globalVariableList</a></strong></code>
+<td class="colFirst"><code>private java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#globalVariableList">globalVariableList</a></strong></code>
 <div class="block">The global varables list.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>private java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#globalVariablePointersMap">globalVariablePointersMap</a></strong></code>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#globalVariablePointersMap">globalVariablePointersMap</a></strong></code>
 <div class="block">The global pointers map.</div>
 </td>
 </tr>
 <tr class="rowColor">
-<td class="colFirst"><code>private java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#localVariableList">localVariableList</a></strong></code>
+<td class="colFirst"><code>private java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#localVariableList">localVariableList</a></strong></code>
 <div class="block">The local variables list.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>private java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#localVariablePointersMap">localVariablePointersMap</a></strong></code>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#localVariablePointersMap">localVariablePointersMap</a></strong></code>
 <div class="block">The local pointers map.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>private java.lang.Object</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#value">value</a></strong></code>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#value">value</a></strong></code>
 <div class="block">The value of the expression.</div>
 </td>
 </tr>
@@ -179,9 +179,9 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 <th class="colOne" scope="col">Constructor and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colOne"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#DewInterpreter.DewParser.AlgebraicExpressionBranch(java.util.LinkedList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap)">DewInterpreter.DewParser.AlgebraicExpressionBranch</a></strong>(java.util.LinkedList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionQueue,
-                                                  java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariableList,
-                                                  java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariableList,
+<td class="colOne"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#DewInterpreter.DewParser.AlgebraicExpressionBranch(java.util.LinkedList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap)">DewInterpreter.DewParser.AlgebraicExpressionBranch</a></strong>(java.util.LinkedList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionQueue,
+                                                  java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariableList,
+                                                  java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariableList,
                                                   java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;globalVariablePointersMap,
                                                   java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;localVariablePointersMap)</code>&nbsp;</td>
 </tr>
@@ -202,64 +202,64 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#call()">call</a></strong>()</code>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#call()">call</a></strong>()</code>
 <div class="block">Calls the branch to update value</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static boolean</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#canEvaluateNaturalMathToConstant(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap, rayburn.engine.util.Logger)">canEvaluateNaturalMathToConstant</a></strong>(java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionTokens,
-                                java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
-                                java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#canEvaluateNaturalMathToConstant(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap, com.normalizedinsanity.rayburn.engine.util.Logger)">canEvaluateNaturalMathToConstant</a></strong>(java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionTokens,
+                                java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
+                                java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
                                 java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;globalPointers,
                                 java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;localPointers,
-                                <a href="../../../../rayburn/engine/util/Logger.html" title="class in rayburn.engine.util">Logger</a>&nbsp;logger)</code>
+                                <a href="../../../../com.normalizedinsanity.rayburn/engine/util/Logger.html" title="class in com.normalizedinsanity.rayburn.engine.util">Logger</a>&nbsp;logger)</code>
 <div class="block">Check to see if a natural math expression can be evaluated as a constant (only constants and final vars)</div>
 </td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>static java.util.LinkedList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.Token.html" title="class in rayburn.engine.dew.lang">DewInterpreter.Token</a>&gt;</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#convertNaturalMathToRPN(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap, rayburn.engine.util.Logger)">convertNaturalMathToRPN</a></strong>(java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionTokens,
-                       java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
-                       java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
+<td class="colFirst"><code>static java.util.LinkedList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.Token.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.Token</a>&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#convertNaturalMathToRPN(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap, com.normalizedinsanity.rayburn.engine.util.Logger)">convertNaturalMathToRPN</a></strong>(java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionTokens,
+                       java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
+                       java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
                        java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;globalPointers,
                        java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;localPointers,
-                       <a href="../../../../rayburn/engine/util/Logger.html" title="class in rayburn.engine.util">Logger</a>&nbsp;logger)</code>
+                       <a href="../../../../com.normalizedinsanity.rayburn/engine/util/Logger.html" title="class in com.normalizedinsanity.rayburn.engine.util">Logger</a>&nbsp;logger)</code>
 <div class="block">This method parses a natural linear expression and converts it to reverse polish notation (RPN) by using the
  shunting yard algorithm.</div>
 </td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static java.lang.Object</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#evalRPN(java.util.LinkedList, java.util.ArrayList, java.util.ArrayList, java.lang.Class, rayburn.engine.util.Logger)">evalRPN</a></strong>(java.util.LinkedList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.Token.html" title="class in rayburn.engine.dew.lang">DewInterpreter.Token</a>&gt;&nbsp;outputQueue,
-       java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
-       java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#evalRPN(java.util.LinkedList, java.util.ArrayList, java.util.ArrayList, java.lang.Class, com.normalizedinsanity.rayburn.engine.util.Logger)">evalRPN</a></strong>(java.util.LinkedList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.Token.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.Token</a>&gt;&nbsp;outputQueue,
+       java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
+       java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
        java.lang.Class&nbsp;evalType,
-       <a href="../../../../rayburn/engine/util/Logger.html" title="class in rayburn.engine.util">Logger</a>&nbsp;logger)</code>
+       <a href="../../../../com.normalizedinsanity.rayburn/engine/util/Logger.html" title="class in com.normalizedinsanity.rayburn.engine.util">Logger</a>&nbsp;logger)</code>
 <div class="block">Evaluates an algebraic queue in reverse polish notation to an answer.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>java.lang.Object</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#getValue()">getValue</a></strong>()</code>&nbsp;</td>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#getValue()">getValue</a></strong>()</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static boolean</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#isFloat(java.lang.String)">isFloat</a></strong>(java.lang.String&nbsp;value)</code>&nbsp;</td>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#isFloat(java.lang.String)">isFloat</a></strong>(java.lang.String&nbsp;value)</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static boolean</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#isInt(java.lang.String)">isInt</a></strong>(java.lang.String&nbsp;value)</code>&nbsp;</td>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#isInt(java.lang.String)">isInt</a></strong>(java.lang.String&nbsp;value)</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>static boolean</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#isNumber(rayburn.engine.dew.lang.DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken)">isNumber</a></strong>(<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken</a>&nbsp;token)</code>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#isNumber(com.normalizedinsanity.rayburn.engine.dew.lang.DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken)">isNumber</a></strong>(<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken</a>&nbsp;token)</code>
 <div class="block">Uses the regex from the field genericNumberRegex to determine if a dataLiteralToken is a number.</div>
 </td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code>static boolean</code></td>
-<td class="colLast"><code><strong><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#isNumber(java.lang.String)">isNumber</a></strong>(java.lang.String&nbsp;string)</code>
+<td class="colLast"><code><strong><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html#isNumber(java.lang.String)">isNumber</a></strong>(java.lang.String&nbsp;string)</code>
 <div class="block">Uses the regex from the field genericNumberRegex to determine if a String is a number.</div>
 </td>
 </tr>
@@ -291,7 +291,7 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 <ul class="blockList">
 <li class="blockList">
 <h4>expressionQueue</h4>
-<pre>private final&nbsp;java.util.LinkedList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt; expressionQueue</pre>
+<pre>private final&nbsp;java.util.LinkedList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt; expressionQueue</pre>
 <div class="block">The expression queue to be evaluated at runtime.</div>
 </li>
 </ul>
@@ -301,7 +301,7 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 <ul class="blockList">
 <li class="blockList">
 <h4>globalVariableList</h4>
-<pre>private final&nbsp;java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt; globalVariableList</pre>
+<pre>private final&nbsp;java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt; globalVariableList</pre>
 <div class="block">The global varables list.</div>
 </li>
 </ul>
@@ -311,7 +311,7 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 <ul class="blockList">
 <li class="blockList">
 <h4>localVariableList</h4>
-<pre>private final&nbsp;java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt; localVariableList</pre>
+<pre>private final&nbsp;java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt; localVariableList</pre>
 <div class="block">The local variables list.</div>
 </li>
 </ul>
@@ -359,9 +359,9 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 <ul class="blockListLast">
 <li class="blockList">
 <h4>DewInterpreter.DewParser.AlgebraicExpressionBranch</h4>
-<pre>public&nbsp;DewInterpreter.DewParser.AlgebraicExpressionBranch(java.util.LinkedList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionQueue,
-                                                  java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariableList,
-                                                  java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariableList,
+<pre>public&nbsp;DewInterpreter.DewParser.AlgebraicExpressionBranch(java.util.LinkedList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionQueue,
+                                                  java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariableList,
+                                                  java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariableList,
                                                   java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;globalVariablePointersMap,
                                                   java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;localVariablePointersMap)</pre>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>expressionQueue</code> - the expression queue</dd><dd><code>globalVariableList</code> - the global variables list</dd><dd><code>localVariableList</code> - the local variables list</dd><dd><code>globalVariablePointersMap</code> - the global pointers map</dd><dd><code>localVariablePointersMap</code> - the local pointers map</dd></dl>
@@ -385,7 +385,7 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 <div class="block">Calls the branch to update value</div>
 <dl>
 <dt><strong>Specified by:</strong></dt>
-<dd><code><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html#call()">call</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in rayburn.engine.dew.lang">DewInterpreter.DewParser.BranchElement</a></code></dd>
+<dd><code><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html#call()">call</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.BranchElement</a></code></dd>
 </dl>
 </li>
 </ul>
@@ -399,72 +399,72 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 <dl><dt><span class="strong">Returns:</span></dt><dd>the value of the branch at runtime</dd></dl>
 </li>
 </ul>
-<a name="canEvaluateNaturalMathToConstant(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap, rayburn.engine.util.Logger)">
+<a name="canEvaluateNaturalMathToConstant(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap, com.normalizedinsanity.rayburn.engine.util.Logger)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>canEvaluateNaturalMathToConstant</h4>
-<pre>public static&nbsp;boolean&nbsp;canEvaluateNaturalMathToConstant(java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionTokens,
-                                       java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
-                                       java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
+<pre>public static&nbsp;boolean&nbsp;canEvaluateNaturalMathToConstant(java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionTokens,
+                                       java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
+                                       java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
                                        java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;globalPointers,
                                        java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;localPointers,
-                                       <a href="../../../../rayburn/engine/util/Logger.html" title="class in rayburn.engine.util">Logger</a>&nbsp;logger)</pre>
+                                       <a href="../../../../com.normalizedinsanity.rayburn/engine/util/Logger.html" title="class in com.normalizedinsanity.rayburn.engine.util">Logger</a>&nbsp;logger)</pre>
 <div class="block">Check to see if a natural math expression can be evaluated as a constant (only constants and final vars)</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>expressionTokens</code> - the tokens the describe the algebraic expression</dd><dd><code>globalVariables</code> - global variables</dd><dd><code>localVariables</code> - local variables</dd><dd><code>globalPointers</code> - global pointers</dd><dd><code>localPointers</code> - local pointers</dd>
 <dt><span class="strong">Returns:</span></dt><dd>if the expression can be evaluated as a constant</dd></dl>
 </li>
 </ul>
-<a name="convertNaturalMathToRPN(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap, rayburn.engine.util.Logger)">
+<a name="convertNaturalMathToRPN(java.util.ArrayList, java.util.ArrayList, java.util.ArrayList, java.util.HashMap, java.util.HashMap, com.normalizedinsanity.rayburn.engine.util.Logger)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>convertNaturalMathToRPN</h4>
-<pre>public static&nbsp;java.util.LinkedList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.Token.html" title="class in rayburn.engine.dew.lang">DewInterpreter.Token</a>&gt;&nbsp;convertNaturalMathToRPN(java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionTokens,
-                                                                 java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
-                                                                 java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
+<pre>public static&nbsp;java.util.LinkedList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.Token.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.Token</a>&gt;&nbsp;convertNaturalMathToRPN(java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.LexicalToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.LexicalToken</a>&gt;&nbsp;expressionTokens,
+                                                                 java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
+                                                                 java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
                                                                  java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;globalPointers,
                                                                  java.util.HashMap&lt;java.lang.String,java.lang.Short&gt;&nbsp;localPointers,
-                                                                 <a href="../../../../rayburn/engine/util/Logger.html" title="class in rayburn.engine.util">Logger</a>&nbsp;logger)
-                                                                          throws <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParseException.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParseException</a></pre>
+                                                                 <a href="../../../../com.normalizedinsanity.rayburn/engine/util/Logger.html" title="class in com.normalizedinsanity.rayburn.engine.util">Logger</a>&nbsp;logger)
+                                                                          throws <a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParseException.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParseException</a></pre>
 <div class="block">This method parses a natural linear expression and converts it to reverse polish notation (RPN) by using the
  shunting yard algorithm. Once the natural function has been converted to RPN, it can be evaluated at runtime
  by the interpreter.</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>expressionTokens</code> - the tokens that describe the expression. Uncleaned for syntax error.</dd><dd><code>globalVariables</code> - the ArrayList of variables the expression has access to</dd><dd><code>globalPointers</code> - the Map of pointers the expression has access to</dd>
 <dt><span class="strong">Returns:</span></dt><dd>the output queue</dd>
 <dt><span class="strong">Throws:</span></dt>
-<dd><code><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParseException.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParseException</a></code> - if a token is passed that is not a valid expression token, or the syntax rules of
+<dd><code><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParseException.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParseException</a></code> - if a token is passed that is not a valid expression token, or the syntax rules of
  the expression are violated, a parse time exception will be thrown</dd></dl>
 </li>
 </ul>
-<a name="evalRPN(java.util.LinkedList, java.util.ArrayList, java.util.ArrayList, java.lang.Class, rayburn.engine.util.Logger)">
+<a name="evalRPN(java.util.LinkedList, java.util.ArrayList, java.util.ArrayList, java.lang.Class, com.normalizedinsanity.rayburn.engine.util.Logger)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>evalRPN</h4>
-<pre>public static&nbsp;java.lang.Object&nbsp;evalRPN(java.util.LinkedList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.Token.html" title="class in rayburn.engine.dew.lang">DewInterpreter.Token</a>&gt;&nbsp;outputQueue,
-                       java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
-                       java.util.ArrayList&lt;<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
+<pre>public static&nbsp;java.lang.Object&nbsp;evalRPN(java.util.LinkedList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.Token.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.Token</a>&gt;&nbsp;outputQueue,
+                       java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;globalVariables,
+                       java.util.ArrayList&lt;<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.ParseTokens.Variable.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParser.ParseTokens.Variable</a>&gt;&nbsp;localVariables,
                        java.lang.Class&nbsp;evalType,
-                       <a href="../../../../rayburn/engine/util/Logger.html" title="class in rayburn.engine.util">Logger</a>&nbsp;logger)
-                                throws <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParseException.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParseException</a></pre>
+                       <a href="../../../../com.normalizedinsanity.rayburn/engine/util/Logger.html" title="class in com.normalizedinsanity.rayburn.engine.util">Logger</a>&nbsp;logger)
+                                throws <a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParseException.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParseException</a></pre>
 <div class="block">Evaluates an algebraic queue in reverse polish notation to an answer.</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>outputQueue</code> - RPN token queue</dd><dd><code>globalVariables</code> - global variables</dd><dd><code>localVariables</code> - local variables</dd><dd><code>evalType</code> - eval type (Integer, Float)</dd><dd><code>logger</code> - logger for the function</dd>
 <dt><span class="strong">Returns:</span></dt><dd>answer</dd>
 <dt><span class="strong">Throws:</span></dt>
-<dd><code><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParseException.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewParseException</a></code></dd></dl>
+<dd><code><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParseException.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewParseException</a></code></dd></dl>
 </li>
 </ul>
-<a name="isNumber(rayburn.engine.dew.lang.DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken)">
+<a name="isNumber(com.normalizedinsanity.rayburn.engine.dew.lang.DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>isNumber</h4>
-<pre>public static&nbsp;boolean&nbsp;isNumber(<a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken.html" title="class in rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken</a>&nbsp;token)</pre>
+<pre>public static&nbsp;boolean&nbsp;isNumber(<a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang">DewInterpreter.DewLexer.LexicalTokens.DataLiteralToken</a>&nbsp;token)</pre>
 <div class="block">Uses the regex from the field genericNumberRegex to determine if a dataLiteralToken is a number.</div>
 <dl><dt><span class="strong">Parameters:</span></dt><dd><code>token</code> - </dd>
 <dt><span class="strong">Returns:</span></dt><dd>if the token is a number</dd></dl>
@@ -529,11 +529,11 @@ implements <a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser
 </div>
 <div class="subNav">
 <ul class="navList">
-<li><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.html" title="class in rayburn.engine.dew.lang"><span class="strong">Prev Class</span></a></li>
-<li><a href="../../../../rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in rayburn.engine.dew.lang"><span class="strong">Next Class</span></a></li>
+<li><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.html" title="class in com.normalizedinsanity.rayburn.engine.dew.lang"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.BranchElement.html" title="interface in com.normalizedinsanity.rayburn.engine.dew.lang"><span class="strong">Next Class</span></a></li>
 </ul>
 <ul class="navList">
-<li><a href="../../../../index.html?rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html" target="_top">Frames</a></li>
+<li><a href="../../../../index.html?com.normalizedinsanity.rayburn/engine/dew/lang/DewInterpreter.DewParser.AlgebraicExpressionBranch.html" target="_top">Frames</a></li>
 <li><a href="DewInterpreter.DewParser.AlgebraicExpressionBranch.html" target="_top">No Frames</a></li>
 </ul>
 <ul class="navList" id="allclasses_navbar_bottom">
