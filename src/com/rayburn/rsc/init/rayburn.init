@@ -1,0 +1,10 @@
+<init>
+    <display>
+        <initResX>800</initResX>
+        <initResY>600</initResY>
+        <fs>false</fs>
+    </display>
+    <doi>
+        <master>engine.init</master>
+    </doi>
+</init>
