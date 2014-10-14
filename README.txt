@@ -1,4 +1,4 @@
-<Project com.normalizedinsanity.rayburn.Rayburn, Educational Render Engine and Portable Scripting Language>
+<Project com.rayburn.Rayburn, Educational Render Engine and Portable Scripting Language>
     Copyright (C) <2013>  <Will Stuckey>
 
     This program is free software: you can redistribute it and/or modify

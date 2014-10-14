@@ -8,12 +8,12 @@ import org.lwjgl.opengl.DisplayMode;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.vector.Matrix4f;
 import org.lwjgl.util.vector.Vector3f;
-import com.normalizedinsanity.rayburn.engine.util.MathUtil;
-import com.normalizedinsanity.rayburn.engine.entity.geom.Cube;
+import com.rayburn.engine.util.MathUtil;
+import com.rayburn.engine.entity.geom.Cube;
 
 import static org.lwjgl.util.glu.GLU.*;
 
-import static com.normalizedinsanity.rayburn.engine.util.MathUtil.*;
+import static com.rayburn.engine.util.MathUtil.*;
 
 import java.nio.FloatBuffer;
 

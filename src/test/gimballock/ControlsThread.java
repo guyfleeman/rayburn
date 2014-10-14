@@ -4,7 +4,7 @@ import org.lwjgl.input.Mouse;
 import org.lwjgl.util.vector.Quaternion;
 import org.lwjgl.util.vector.Vector2f;
 import org.lwjgl.util.vector.Vector3f;
-import com.normalizedinsanity.rayburn.engine.util.MathUtil;
+import com.rayburn.engine.util.MathUtil;
 
 import static org.lwjgl.input.Keyboard.KEY_A;
 import static org.lwjgl.input.Keyboard.KEY_D;

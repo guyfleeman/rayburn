@@ -7,7 +7,7 @@ import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.vector.Matrix4f;
-import com.normalizedinsanity.rayburn.engine.util.MathUtil;
+import com.rayburn.engine.util.MathUtil;
 
 import java.awt.*;
 import java.nio.FloatBuffer;

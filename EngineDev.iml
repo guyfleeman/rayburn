@@ -11,6 +11,7 @@
     <orderEntry type="library" name="jinput" level="project" />
     <orderEntry type="library" name="guava-14.0.1" level="project" />
     <orderEntry type="library" name="commons-lang3-3.1" level="project" />
+    <orderEntry type="library" name="slick-util" level="project" />
   </component>
 </module>
 

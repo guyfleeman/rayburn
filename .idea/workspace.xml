@@ -68,104 +68,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DewFunctionInvocationError.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/DewFunctionInvocationError.java">
+      <file leaf-file-name="Rayburn.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rayburn/Rayburn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="702">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1638">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DewFunctionBinding.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/DewFunctionBinding.java">
+      <file leaf-file-name="EngineConsole.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/EngineConsole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1692">
-              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+            <state vertical-scroll-proportion="4.6299863" vertical-offset="0" max-vertical-offset="4248">
+              <caret line="190" column="46" selection-start-line="190" selection-start-column="46" selection-end-line="190" selection-end-column="46" />
               <folding>
-                <marker date="1412285018952" expanded="true" signature="942:1104" placeholder="/**...*/" />
-                <marker date="1412285018952" expanded="true" signature="1617:1872" placeholder="/**...*/" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractDewEntityBinding.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/AbstractDewEntityBinding.java">
+      <file leaf-file-name="RayburnEngine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/RayburnEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="6606">
-              <caret line="337" column="41" selection-start-line="337" selection-start-column="41" selection-end-line="337" selection-end-column="41" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3384" max-vertical-offset="5184">
+              <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RayburnEngine.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/RayburnEngine.java">
+      <file leaf-file-name="RayburnConsole.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/RayburnConsole.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45102507" vertical-offset="0" max-vertical-offset="936">
-              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractDewFunctionBinding.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/AbstractDewFunctionBinding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1260">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DewInterpreter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewInterpreter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2682" max-vertical-offset="8298">
-              <caret line="149" column="56" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DewParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="23238" max-vertical-offset="23670">
-              <caret line="1291" column="28" selection-start-line="1291" selection-start-column="28" selection-end-line="1291" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractDewPropertyBinding.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/AbstractDewPropertyBinding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1674">
-              <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="54" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DewLanguageBindingInterface.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewLanguageBindingInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="1548">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DewLexer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewLexer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="37692">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2484">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -181,38 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/rayburn/engine/dew/command/Runtime.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/engine/dew/bindings/AbstractDewPropertyBinding.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/engine/dew/command/Help.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/engine/dew/bindings/AbstractDewEntityBinding.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/engine/util/ShaderUtil.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/engine/entity/LocationEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/gimballock/PolyEngine.java" />
-        <option value="$PROJECT_DIR$/src/test/projectiontesting/ReferenceTimer.java" />
-        <option value="$PROJECT_DIR$/src/test/gimballock/Engine.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/engine/dew/lang/DewInterpreter.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/game/util/ResourceParser.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/game/util/geom/OBJModel.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/engine/ExoplanetEngine.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/engine/util/MathUtil.java" />
-        <option value="$PROJECT_DIR$/src/rayburn/engine/Engine.java" />
-        <option value="$PROJECT_DIR$/src/Rayburn.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewRuntimeException.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewParseException.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewException.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/ParseTokens.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/EngineUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/Camera.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewLexer.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/MathUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/Engine.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/RayburnEngine.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/WindowManagerInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/Rayburn.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/RayburnWindowManager.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/bindings/AbstractDewPropertyBinding.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/bindings/AbstractDewFunctionBinding.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/bindings/DewFunctionError.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/bindings/DewFunctionInvocationError.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/bindings/DewFunctionVoidParameterBinding.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/bindings/DewFunctionParamaterizedBinding.java" />
@@ -220,20 +129,58 @@
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/bindings/DewFunctionBinding.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewInterpreter.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/bindings/AbstractDewEntityBinding.java" />
-        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/WindowManager.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewParser.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/AbstractDewFunctionBinding.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/DewFunctionBinding.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/AbstractDewEntityBinding.java" />
+        <option value="$PROJECT_DIR$/rsc/init/rayburn.init" />
+        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/RayburnException.java" />
+        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/Console.java" />
+        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/WindowManager.java" />
+        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/RayburnWindowManager.java" />
+        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/ToggleKey.java" />
+        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/Rayburn.java" />
         <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/RayburnEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/DewPropertyBindingObject.java" />
+        <option value="$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/RayburnEngineBuilder.java" />
+        <option value="$PROJECT_DIR$/src/rayburn/engine/RayburnEngineBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/dew/lang/DewParser.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/WindowManager.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/dew/Console.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/Triggerable.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/dew/InputRegister.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/dew/DewConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/DewConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/RayburnConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/Console.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/EngineConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/InputRegister.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/ConsoleInputRegister.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/InputHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/RayburnInputRegister.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Activity.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Drawable.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Drawable2D.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Updatable.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/RayburnEngineBuilder.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Initializable.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/FontExample.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/RayburnWindowManager.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/RayburnEngine.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/CommandBuffer.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Drawable3D.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/RayburnConsoleInputRegister.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/Rayburn.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/RayburnConsole.java" />
+        <option value="$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/EngineConsole.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1084" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -329,6 +276,28 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="rsc" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RayburnL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EngineDev" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rayburn" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="engine" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -355,7 +324,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dew" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,41 +350,11 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dew" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lang" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RayburnL" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EngineDev" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rayburn" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engine" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dew" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="command" />
+              <option name="myItemId" value="debug" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,11 +380,15 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dew" />
+              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="binding" />
+              <option name="myItemId" value="debug" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="console" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,22 +406,40 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RayburnL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EngineDev" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rsc" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shader" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../VaSOLSim" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaLibs/slick-util/slick-util.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -489,14 +450,17 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/rayburn/rsc/fonts/ubuntu" />
       <recent name="C:\Users\Will Stuckey\Dropbox\PROGRAMMING\Java\EngineDev" />
       <recent name="C:\Users\StuckeyWilliamM\Dropbox\PROGRAMMING\Java\EngineDev\src\rayburn\engine" />
       <recent name="C:\Users\StuckeyWilliamM\Dropbox\PROGRAMMING\Java\EngineDev\src\rayburn\engine\console" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/rayburn/rsc/init" />
       <recent name="$PROJECT_DIR$/rsc/shader" />
       <recent name="C:\Users\Will Stuckey\Dropbox\PROGRAMMING\Java\EngineDev\src\rayburn\engine" />
     </key>
@@ -514,7 +478,7 @@
   </component>
   <component name="RunManager" selected="Application.Rayburn">
     <configuration default="false" name="Rayburn" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.normalizedinsanity.rayburn.Rayburn" />
+      <option name="MAIN_CLASS_NAME" value="com.rayburn.Rayburn" />
       <option name="VM_PARAMETERS" value="-Djava.library.path=$PROJECT_DIR$/native/linux" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -532,6 +496,22 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FontExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rayburn.FontExample" />
+      <option name="VM_PARAMETERS" value="-Djava.library.path=$PROJECT_DIR$/native/linux" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="EngineDev" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -664,12 +644,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Rayburn" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FontExample" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="Application.Rayburn" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FontExample" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -678,6 +660,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="SvnConfiguration" myUseAcceleration="nothing">
     <configuration useDefault="false" />
   </component>
@@ -710,28 +697,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.045016076" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19078243" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1886388" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32853982" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22277501" sideWeight="0.67064846" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20342731" sideWeight="0.67064846" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37147596" sideWeight="0.0" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3993174" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39871383" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1637931" sideWeight="0.4375" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30010718" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -757,140 +744,15 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="11" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewLexer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="37692">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/ShaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="2340">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/entity/geom/OBJModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3042">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/entity/LocationEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="76086">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/MathUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/Rayburn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1872">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="6696">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/ExoplanetEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="7146">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/ShaderUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/Camera.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="2196">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/entity/geom/OBJModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3042">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/entity/LocationEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="76086">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/MathUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15102">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/projectiontesting/VertexBufferEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -912,101 +774,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/ingestion/ResourceParser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/ingestion/ResourceParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/entity/LocationEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/entity/geom/Cube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2610">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/entity/geom/OBJModel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/entity/geom/OBJModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.179402" vertical-offset="0" max-vertical-offset="2178">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/ExoplanetEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="7128">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewRuntimeException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/lang/DewRuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11960133" vertical-offset="0" max-vertical-offset="903">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewParseException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/lang/DewParseException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="903">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/DewException.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/DewException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09966777" vertical-offset="0" max-vertical-offset="903">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/ParseTokens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09966777" vertical-offset="36" max-vertical-offset="3366">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/EngineUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8770764" vertical-offset="0" max-vertical-offset="972">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/ShaderUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/ShaderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.179402" vertical-offset="0" max-vertical-offset="1800">
           <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/util/MathUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/MathUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.1993356" vertical-offset="1998" max-vertical-offset="15372">
           <caret line="427" column="62" selection-start-line="427" selection-start-column="62" selection-end-line="427" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="398" max-vertical-offset="4122">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="87" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1014,127 +827,304 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33257404" vertical-offset="1040" max-vertical-offset="53964">
           <caret line="107" column="19" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/Camera.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7334852" vertical-offset="796" max-vertical-offset="1872">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/Rayburn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1656">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/Console.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18728323" vertical-offset="0" max-vertical-offset="2052">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/RayburnWindowManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3978">
-          <caret line="187" column="45" selection-start-line="187" selection-start-column="45" selection-end-line="187" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewLexer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/lang/DewLexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="36360">
           <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/AbstractDewPropertyBinding.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/binding/AbstractDewPropertyBinding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
           <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="54" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewLanguageBindingInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/lang/DewLanguageBindingInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="670" max-vertical-offset="1548">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewInterpreter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/lang/DewInterpreter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6984">
           <caret line="149" column="56" selection-start-line="149" selection-start-column="56" selection-end-line="149" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/lang/DewParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="20974" max-vertical-offset="22986">
-          <caret line="1291" column="28" selection-start-line="1291" selection-start-column="28" selection-end-line="1291" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/WindowManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2916">
-          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/DewFunctionInvocationError.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/binding/DewFunctionInvocationError.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/AbstractDewFunctionBinding.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/binding/AbstractDewFunctionBinding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1116">
           <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/rsc/init/rayburn.init">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/RayburnException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5125285" vertical-offset="0" max-vertical-offset="878">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/lang/ParseTokens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3402">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/binding/DewFunctionBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1692">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/binding/AbstractDewEntityBinding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5728" max-vertical-offset="6606">
+          <caret line="404" column="0" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/ToggleKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15428571" vertical-offset="0" max-vertical-offset="700">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/EngineUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1314286" vertical-offset="0" max-vertical-offset="972">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/lang/DewParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="22986">
+          <caret line="115" column="105" selection-start-line="115" selection-start-column="105" selection-end-line="115" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/entity/LocationEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18451025" vertical-offset="0" max-vertical-offset="1386">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/entity/geom/Cube.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="2610">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/DewFunctionBinding.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Triggerable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="544" max-vertical-offset="1692">
-          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/Console.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1962">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/debug/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.8002853" vertical-offset="2125" max-vertical-offset="2826">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/dew/binding/DewPropertyBindingObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2826">
+          <caret line="74" column="40" selection-start-line="74" selection-start-column="40" selection-end-line="74" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/WindowManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="866" max-vertical-offset="3186">
+          <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/rsc/fonts/ubuntu/CONTRIBUTING.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Updatable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1983471" vertical-offset="0" max-vertical-offset="726">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/ExoplanetEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6597938" vertical-offset="650" max-vertical-offset="7128">
+          <caret line="61" column="52" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/RayburnEngineBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2644979" vertical-offset="420" max-vertical-offset="1458">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/FontExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1422" max-vertical-offset="2250">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3415" max-vertical-offset="4122">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/RayburnWindowManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4295" max-vertical-offset="5094">
+          <caret line="285" column="27" selection-start-line="285" selection-start-column="27" selection-end-line="285" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Initializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19807428" vertical-offset="0" max-vertical-offset="727">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/CommandBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Drawable3D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24759285" vertical-offset="0" max-vertical-offset="727">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/interfaces/Drawable2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19807428" vertical-offset="0" max-vertical-offset="727">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/RayburnConsoleInputRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9559835" vertical-offset="1512" max-vertical-offset="10710">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
-            <marker date="1412285018952" expanded="true" signature="942:1104" placeholder="/**...*/" />
-            <marker date="1412285018952" expanded="true" signature="1617:1872" placeholder="/**...*/" />
+            <element signature="e#1407#10964#0" expanded="true" />
+            <element signature="e#10960#10961#0" expanded="true" />
+            <element signature="e#12128#12129#0" expanded="true" />
+            <element signature="e#12162#12163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/dew/binding/AbstractDewEntityBinding.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/RayburnEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="6606">
-          <caret line="337" column="41" selection-start-line="337" selection-start-column="41" selection-end-line="337" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3546" max-vertical-offset="5184">
+          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/Rayburn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1638">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/normalizedinsanity/rayburn/engine/RayburnEngine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/RayburnConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45102507" vertical-offset="0" max-vertical-offset="936">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2484">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/rayburn/engine/util/debug/console/EngineConsole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.6299863" vertical-offset="0" max-vertical-offset="4248">
+          <caret line="190" column="46" selection-start-line="190" selection-start-column="46" selection-end-line="190" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,7 +1205,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lwjgl</last-edited>
+          <last-edited>commons-lang3-3.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

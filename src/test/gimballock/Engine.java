@@ -10,9 +10,9 @@ import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 import org.lwjgl.opengl.PixelFormat;
 import org.lwjgl.util.vector.Vector3f;
-import com.normalizedinsanity.rayburn.engine.ingestion.ResourceParser;
-import com.normalizedinsanity.rayburn.engine.entity.geom.Cube;
-import com.normalizedinsanity.rayburn.engine.entity.geom.OBJModel;
+import com.rayburn.engine.ingestion.ResourceParser;
+import com.rayburn.engine.entity.geom.Cube;
+import com.rayburn.engine.entity.geom.OBJModel;
 import test.projectiontesting.ReferenceTimer;
 
 import java.awt.*;
