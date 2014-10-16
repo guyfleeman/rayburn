@@ -437,6 +437,7 @@ public class RayburnConsoleInputRegister<E extends Triggerable & CommandBuffer> 
 			keyListenerHandle.cancel(true);
 		}
 
+		enableRepeatEvents(true);
 		invocationTime = System.nanoTime();
 		running = true;
 		keyListenerHandle = scheduler.scheduleAtFixedRate(keyHandler, 0, 1, TimeUnit.MILLISECONDS);
@@ -448,6 +449,7 @@ public class RayburnConsoleInputRegister<E extends Triggerable & CommandBuffer> 
 	 */
 	public void setInactive()
 	{
+		enableRepeatEvents(false);
 		running = false;
 
 		if (keyListenerHandle != null)

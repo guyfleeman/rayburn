@@ -110,7 +110,6 @@ public class RayburnWindowManager extends WindowManager
 			if (Boolean.parseBoolean(System.getProperty("org.lwjgl.opengl.Window.undecorated"))
 					== super.windowed.getPropertyValue())
 			{
-				System.out.println("IM HERE");
 				System.setProperty("org.lwjgl.opengl.Window.undecorated",
 				                   Boolean.toString(!super.windowed.getPropertyValue()));
 				recreateWindow();
@@ -228,13 +227,39 @@ public class RayburnWindowManager extends WindowManager
 					return 2;
 				}
 
+				//prevent unexpected calls to the display
 				isWindowActive = false;
+				//set resolution and other display settings
 				Display.setDisplayMode(targetMode);
+				//remove frame
 				super.setWindowed(false);
-				System.out.println(super.isWindowed());
+				//update properties
 				update();
+				//enable fullscreen flag (send data to system for layering and handoff)
 				Display.setFullscreen(true);
+				//update the display (required by some window managers to ensure the glcontext is drawn above other
+				//elements
+				Display.update();
+				//resume display draw calls
 				isWindowActive = true;
+
+				/*
+				 * give the system's window manager one second to enable the fullscreen and layered context
+				 */
+				try
+				{
+					Thread.sleep(1000);
+				}
+				catch (InterruptedException e) {}
+
+				/*
+				 * if the display is not active, meaning the system's window manager has not refreshed or enabled the
+				 * context in the allotted time, return to non-fullscreen to prevent ui lock
+				 */
+				if (!Display.isActive())
+				{
+					setFullscreen(false);
+				}
 			}
 			catch (LWJGLException e)
 			{
@@ -246,8 +271,11 @@ public class RayburnWindowManager extends WindowManager
 		{
 			try
 			{
+				//recreate frame
 				super.setWindowed(true);
+				//update
 				update();
+				//leave fullscreen
 				Display.setFullscreen(false);
 			}
 			catch (LWJGLException e)

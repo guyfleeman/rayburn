@@ -87,8 +87,8 @@ public class RayburnEngine extends AbstractDewEntityBinding implements Runnable
 		super.addSubObject(engineConsole);
 
 		windowManager.createWindow();
-		//windowManager.fullResolution();
-		//System.out.println(windowManager.setFullscreen(true));
+		windowManager.fullResolution();
+		System.out.println(windowManager.setFullscreen(true));
 		engineConsole.initialize();
 		this.rcir = new RayburnConsoleInputRegister<RayburnConsole>((RayburnConsole) engineConsole);
 
